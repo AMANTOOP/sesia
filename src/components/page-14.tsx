@@ -18,7 +18,7 @@ export function Page14() {
               Contacts
             </p>
             <h2 className="text-4xl font-light text-gray-900">
-              Get <em className="italic">in</em> touch
+              Get <em className="italic font-playground">in</em> touch
             </h2>
             <p className="mt-4 text-gray-700">
               Leave your contact details below to register your interest in
@@ -28,66 +28,66 @@ export function Page14() {
 
           {/* Right Section - Form */}
           <div className="w-full">
-            <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <form className="grid grid-cols-1 md:grid-cols-2 gap-6 font-commuters">
               {/* First Name */}
               <div>
-                <label className="block text-gray-700">First Name</label>
+                <label className="block text-gray-700 text-left">First Name</label>
                 <input
                   type="text"
-                  className="w-full border-b border-gray-300 focus:outline-none focus:border-gray-600 p-2"
+                  className="w-full border-b border-gray-300 focus:outline-none focus:border-gray-600 p-2 bg-transparent"
                 />
               </div>
 
               {/* Last Name */}
               <div>
-                <label className="block text-gray-700">Last Name</label>
+                <label className="block text-gray-700 text-left">Last Name</label>
                 <input
                   type="text"
-                  className="w-full border-b border-gray-300 focus:outline-none focus:border-gray-600 p-2"
+                  className="w-full border-b border-gray-300 focus:outline-none focus:border-gray-600 p-2 bg-transparent"
                 />
               </div>
 
               {/* Mobile Country Code */}
               <div>
-                <label className="block text-gray-700">
+                <label className="block text-gray-700 text-left">
                   Mobile Country Code
                 </label>
-                <select className="w-full border-b border-gray-300 focus:outline-none focus:border-gray-600 p-2">
+                <select className="w-full border-b border-gray-300 focus:outline-none focus:border-gray-600 p-2 bg-transparent">
                   <option>Select one...</option>
                 </select>
               </div>
 
               {/* Phone Number */}
               <div>
-                <label className="block text-gray-700">Phone Number</label>
+                <label className="block text-gray-700 text-left">Phone Number</label>
                 <input
                   type="text"
-                  className="w-full border-b border-gray-300 focus:outline-none focus:border-gray-600 p-2"
+                  className="w-full border-b border-gray-300 focus:outline-none focus:border-gray-600 p-2 bg-transparent"
                 />
               </div>
 
               {/* Prospect Type */}
               <div>
-                <label className="block text-gray-700">Prospect Type</label>
-                <select className="w-full border-b border-gray-300 focus:outline-none focus:border-gray-600 p-2">
+                <label className="block text-gray-700 text-left">Prospect Type</label>
+                <select className="w-full border-b border-gray-300 focus:outline-none focus:border-gray-600 p-2 bg-transparent">
                   <option>Select one...</option>
                 </select>
               </div>
 
               {/* Interested Property Type */}
               <div>
-                <label className="block text-gray-700">
+                <label className="block text-gray-700 text-left">
                   Interested Property Type
                 </label>
-                <select className="w-full border-b border-gray-300 focus:outline-none focus:border-gray-600 p-2">
+                <select className="w-full border-b border-gray-300 focus:outline-none focus:border-gray-600 p-2 bg-transparent">
                   <option>Select one...</option>
                 </select>
               </div>
 
               {/* Submit Button */}
-              <div className="col-span-2 flex justify-end">
-                <button className="bg-red-700 text-white px-6 py-3 text-sm uppercase tracking-wide font-semibold flex items-center gap-2 hover:bg-red-800">
-                  Submit <span>➜</span>
+              <div className="col-span-2 flex justify-start text-left">
+                <button className="bg-red-700 text-white px-6 py-3 text-sm uppercase tracking-wide font-semibold flex items-center gap-2 hover:bg-red-800 font-commuters">
+                  Submit <span>&gt;</span>
                 </button>
               </div>
             </form>

@@ -16,23 +16,23 @@ export function Page13() {
             />
           </div>
 
-          <div className="text-center md:text-left">
-            <span className="text-sm tracking-wider text-gray-600">
+          <div className="text-center">
+            <span className="text-sm tracking-wider text-gray-600 font-commuters">
               Developer
             </span>
 
-            <h2 className="mt-4 text-3xl md:text-4xl font-light">
+            <h2 className="mt-4 text-3xl md:text-4xl font-light font-utile">
               Visionary design <br />
-              meets modern luxury
+              <span className="font-playground italic">meets</span> modern luxury
             </h2>
 
-            <p className="mt-6 text-gray-600 leading-relaxed">
+            <p className="mt-6 text-gray-600 leading-relaxed font-commuters">
               BEYOND is a new premium real estate brand under OMNIYAT GROUP,
               specializing in wider luxury markets and creating homes that blend
               innovation, nature, and luxury.
             </p>
 
-            <p className="mt-6 text-gray-600 leading-relaxed">
+            <p className="mt-6 text-gray-600 leading-relaxed font-franklin">
               Our commitment to quality and design ensures that every
               development is more than just a place to live; it's an experience
               that redefines modern living. With a focus on delivering on-time,

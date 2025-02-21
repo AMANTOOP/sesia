@@ -49,36 +49,46 @@ export function Carousel() {
         {carouselItems.map((item, index) => (
           <div
             key={index}
-            className="min-w-[300px] md:min-w-[350px] lg:min-w-[400px] h-[400px] snap-start relative bg-black rounded-lg overflow-hidden"
+            className="relative min-w-[200px] md:min-w-[250px] lg:min-w-[400px] h-[500px] snap-start overflow-hidden"
           >
+            {/* Image */}
             <Image
               src={item.image}
               alt={item.title}
               layout="fill"
               objectFit="cover"
-              className="opacity-70"
+              className="opacity-80"
             />
-            <div className="absolute flex flex-col justify-between p-4 text-white">
-              <h3 className="text-lg font-bold">{item.title}</h3>
-              <p className="text-sm">{item.description}</p>
+
+            {/* Gradient Overlay for Better Readability */}
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-black"></div>
+
+            {/* Title at the Top */}
+            <div className="absolute top-6 left-1/2 transform -translate-x-1/2 text-center">
+              <h3 className="text-white text-lg font-bold tracking-wide">{item.title}</h3>
+            </div>
+
+            {/* Description at the Bottom */}
+            <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-center px-4">
+              <p className="text-white text-sm leading-relaxed">{item.description}</p>
             </div>
           </div>
         ))}
       </div>
 
-      {/* Navigation Buttons (Positioned Below) */}
-      <div className="flex justify-center mt-4 space-x-4">
+      {/* Navigation Buttons */}
+      <div className="flex justify-end mt-4 space-x-4">
         <button
-          className="bg-blue-500 text-white p-2 rounded-full shadow-md w-10 h-10 flex items-center justify-center"
+          className="bg-[#D5F0FA] text-black p-2 shadow-md w-10 h-10 flex items-center justify-center"
           onClick={() => handleScroll("left")}
         >
-          ◀
+          &lt;
         </button>
         <button
-          className="bg-blue-500 text-white p-2 rounded-full shadow-md w-10 h-10 flex items-center justify-center"
+          className="bg-[#D5F0FA] text-black p-2 shadow-md w-10 h-10 flex items-center justify-center"
           onClick={() => handleScroll("right")}
         >
-          ▶
+          &gt;
         </button>
       </div>
     </div>

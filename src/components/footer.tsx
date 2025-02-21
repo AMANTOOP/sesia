@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { MdOutlineMailOutline } from "react-icons/md";
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -15,7 +16,12 @@ export function Footer() {
       {/* Upper Section */}
       <div className="container mx-auto px-6 md:px-12 lg:px-24 py-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="text-2xl font-semibold tracking-wide">SENSIA</div>
+        <Link 
+            href="/" 
+            className="text-lg font-light tracking-widest"
+          >
+            /EN/IA
+          </Link>
           <div className="text-xl font-light tracking-wide mt-4 md:mt-0">
             BEYOND
           </div>
@@ -84,19 +90,19 @@ export function Footer() {
       </div>
 
     
-      <div className="bg-blue-100 py-4">
+      <div className="bg-[#D5F0FACC] py-4 font-commuters">
         <div className="container mx-auto flex flex-col md:flex-row justify-center items-center space-y-3 md:space-y-0 md:space-x-6">
           <button className="flex items-center space-x-2 px-6 py-2 border border-gray-700 text-gray-700 hover:bg-gray-700 hover:text-white transition">
             <MdOutlineMailOutline size={18} />
-            <span>Register Interest</span>
+            <span>REGISTER INTEREST</span>
           </button>
           <button className="flex items-center space-x-2 px-6 py-2 border border-gray-700 text-gray-700 hover:bg-gray-700 hover:text-white transition">
             <IoLogoWhatsapp size={18} />
-            <span>WhatsApp</span>
+            <span>WHATSAPP</span>
           </button>
           <button className="flex items-center space-x-2 px-6 py-2 border border-gray-700 text-gray-700 hover:bg-gray-700 hover:text-white transition">
             <FaPhone size={18} />
-            <span>Call</span>
+            <span>CALL</span>
           </button>
         </div>
       </div>

@@ -1,8 +1,10 @@
 import { ChevronDown } from "lucide-react"
 
+
+
 export function HeroSection() {
   return (
-    <section className="relative h-screen flex items-center justify-center text-white">
+    <section className="font-utile font-normal text-[38.91px] leading-[40px] tracking-[0%] relative h-screen flex items-center justify-center text-white">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -14,13 +16,13 @@ export function HeroSection() {
 
       <div className="relative z-10 text-center">
         <h1 className="max-w-4xl">
-          <span className="block text-4xl md:text-6xl font-light mb-2">ARCHITECTURAL ELEGANCE</span>
-          <span className="block text-4xl md:text-6xl font-light">
-            ABOVE <span className="italic">the</span> HORIZON
+          <span className="block mb-2">ARCHITECTURAL ELEGANCE</span>
+          <span className="block">
+            ABOVE <span className="font-playground font-medium italic text-[40px] leading-[40px]">the</span> HORIZON
           </span>
         </h1>
 
-        <p className="mt-6 text-lg md:text-xl font-light">
+        <p className="mt-6 text-lg md:text-xl font-light font-inter">
           DISCOVER A TIMELESS RETREAT WHERE CITY MEETS SEA&apos;S CALM
         </p>
 

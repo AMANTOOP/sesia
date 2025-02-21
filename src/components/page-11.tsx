@@ -12,24 +12,30 @@ export function Page11() {
         <div className="absolute inset-0 bg-black/20" />
       </div>
 
-      {/* Centered Content */}
-      <div className="relative container mx-auto px-4 h-full flex flex-col items-center justify-center text-white text-center space-y-6">
-        <div className="text-center">
-          <span className="text-sm tracking-wider text-black">Location</span>
+      <div className="relative container mx-auto px-4 h-full flex flex-col items-center justify-center text-black text-center space-y-6">
+        <div className="text-center max-w-3xl mx-auto">
+          <span className="text-sm tracking-wider text-black uppercase ">
+            Location
+          </span>
 
           <h2 className="mt-4 text-3xl md:text-4xl font-light">
-            At Your Fingertips, a World Awaits
+            <span className="italic">at</span> Your Fingertips{" "}
+            <span className="italic">a</span> World Awaits
           </h2>
 
-          <p className="mt-6 text-white leading-loose">
+          <div className="grid grid-cols-2">
+          <p className="mt-6 text-black leading-loose max-w-xl mx-auto">
             Just minutes from Dubai’s vibrant heart, Sensia perfectly balances
             the lively with the serene.
-            <br />
-            <br />
+          </p>
+
+          <p className="mt-4 text-black leading-loose max-w-xl mx-auto">
             Effortless access to the city offers residents the dynamic energy of
             urban life while maintaining the peaceful atmosphere of this
             exclusive waterfront sanctuary.
           </p>
+          </div>
+          
         </div>
       </div>
     </section>

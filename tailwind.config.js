@@ -16,6 +16,13 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        utile: ["Utile", "sans-serif"],
+        playground: ['PP Playground', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+        commuters: ['Commuters Sans', 'sans-serif'],
+        franklin: ['Franklin Gothic Book', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -59,5 +66,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
-
+};

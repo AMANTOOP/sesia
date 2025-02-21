@@ -1,42 +1,58 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export function Navigation() {
   return (
-    <nav className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-sm">
+    <nav className="fixed top-0 w-full z-50 bg-white">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
-          <Link href="/" className="text-2xl font-light tracking-wider">
-            SENSIA
+        <div className="flex h-20 items-center">
+          {/* Logo */}
+          <Link 
+            href="/" 
+            className="text-lg font-light tracking-widest"
+          >
+            /EN/IA
           </Link>
 
-          <div className="hidden md:flex items-center space-x-8">
-            <Link href="/project" className="text-sm hover:text-primary">
-              PROJECT
-            </Link>
-            <Link href="/interiors" className="text-sm hover:text-primary">
-              INTERIORS
-            </Link>
-            <Link href="/amenities" className="text-sm hover:text-primary">
-              AMENITIES
-            </Link>
-            <Link href="/location" className="text-sm hover:text-primary">
-              LOCATION
-            </Link>
-            <Link href="/developer" className="text-sm hover:text-primary">
-              DEVELOPER
-            </Link>
-          </div>
+          {/* All right-aligned items */}
+          <div className="flex items-center ml-auto space-x-8">
+            {/* Main Navigation Links */}
+            {[
+              ["PROJECT", "/project"],
+              ["INTERIORS", "/interiors"],
+              ["AMENITIES", "/amenities"],
+              ["LOCATION", "/location"],
+              ["DEVELOPER", "/developer"],
+            ].map(([label, href]) => (
+              <Link
+                key={href}
+                href={href}
+                className="text-[13px] text-gray-800 hover:text-gray-600"
+              >
+                {label}
+              </Link>
+            ))}
 
-          <div className="flex items-center space-x-4">
-            <Button variant="ghost" className="hidden md:inline-flex">
+            {/* CTA Buttons */}
+            <Button 
+              variant="outline" 
+              className="h-9 px-4 border-[#e3f2fd] text-[13px] font-normal 
+                hover:bg-[#e3f2fd] hover:border-[#e3f2fd] transition-all duration-300"
+            >
               BECOME AN AGENT
             </Button>
-            <Button>REGISTER INTEREST</Button>
+            <Button 
+              variant="outline"
+              className="h-9 px-4 border-[#e3f2fd] text-[13px] font-normal text-black 
+                hover:bg-[#e3f2fd] hover:border-[#e3f2fd] transition-all duration-300"
+            >
+              REGISTER INTEREST
+            </Button>
           </div>
         </div>
       </div>
     </nav>
-  )
+  );
 }
 
+export default Navigation;

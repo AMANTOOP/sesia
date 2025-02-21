@@ -12,16 +12,16 @@ export function DesignSection() {
         <div className="absolute inset-0 bg-black/20" />
       </div>
 
-      <div className="relative container mx-auto px-4 h-full flex flex-col items-center justify-center text-white text-center">
-        <h2 className="text-3xl md:text-5xl font-light max-w-4xl leading-relaxed">
-          A TASTEFUL BLEND <span className="italic">of</span> THOUGHTFUL
+      <div className="relative container mx-auto px-4 h-full flex flex-col items-center justify-end text-white text-center">
+        <h2 className="font-utile font-normal text-[38.91px] leading-[40px] tracking-[0%] max-w-4xl">
+          A TASTEFUL BLEND <span className="italic font-utile">of</span> THOUGHTFUL
           <br />
-          DESIGN <span className="italic">and</span> NATURAL BEAUTY
+          DESIGN <span className="italic font-utile">and</span> NATURAL BEAUTY
         </h2>
 
-        <button className="mt-8 border border-white px-6 py-3 flex items-center gap-2 hover:bg-white/10 transition-colors">
+        <button className="mt-8 border border-white px-6 py-3 flex items-center gap-2 hover:bg-white/10 transition-colors mb-8">
           <Eye className="w-5 h-5" />
-          <span className="text-sm tracking-wider">VIEW MORE</span>
+          <span className="text-sm tracking-wider font-commuters">VIEW MORE</span>
         </button>
       </div>
     </section>

@@ -41,14 +41,14 @@ export function Page5() {
 
       <div className="px-6 md:px-24 lg:px-40 py-16 grid grid-cols-2">
         <div className="col-span-1">
-        <h4 className="text-sm uppercase tracking-wide text-gray-600 m-5">
+        <h4 className="text-sm uppercase tracking-wide text-gray-600 my-5 font-commuters">
           Interiors
         </h4>
         <h2 className="text-4xl font-light">
-          Living Spaces Shaped <br /><i>by Serenity</i>
+          Living Spaces<br /> Shaped <span className="italic font-playground">by</span> Serenity
         </h2>
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1 max-w-[30rem]">
         <p className="mt-4 text-gray-700">
           Immerse yourself in warmth, sophistication, and seamless indoor-outdoor flow.
         </p>

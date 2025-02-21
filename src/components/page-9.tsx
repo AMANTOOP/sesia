@@ -15,26 +15,31 @@ export function Page9() {
               className="rounded-lg"
             />
           </div>
-
           <div className="text-center md:text-left">
-            <span className="text-sm tracking-wider text-gray-600">
+            <span className="text-sm tracking-wider text-gray-600 ml-[10rem] font-commuters">
               AMENITIES
             </span>
 
-            <h2 className="mt-4 text-3xl md:text-4xl font-light">
+            <h2 className="mt-4 text-3xl md:text-4xl font-light font-utile">
               Luxury That Nurtures
               <br />
               Well-Being
             </h2>
 
-            <p className="mt-6 text-gray-600 leading-relaxed">
+            <p className="mt-6 text-gray-600 leading-relaxed font-inter ml-[15rem]">
               The thoughtfully curated amenities harmonize well-being, comfort,
               and leisure, offering a lifestyle that elevates relaxation while
               fostering vibrant social interactions in an elegant and tranquil
               setting.
             </p>
 
-            <Button className="mt-8">REGISTER INTEREST</Button>
+            <Button
+              variant="outline"
+              className="h-9 px-4 border-[#e3f2fd] text-[13px] font-normal 
+                hover:bg-[#e3f2fd] hover:border-[#e3f2fd] transition-all duration-300 mt-8 ml-[15rem]"
+            >
+              REGISTER INTEREST
+            </Button>
           </div>
         </div>
       </div>

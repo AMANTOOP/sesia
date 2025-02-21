@@ -13,6 +13,7 @@ import { Page14 } from "@/components/page-14"
 import { Footer } from "@/components/footer"
 import { Page5 } from "@/components/page-5"
 import { Page10 } from "@/components/page-10"
+import { Page12 } from "@/components/page-12"
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
       <Page9 />
       <Page10 />
       <Page11 />
-      {/* page12 */}
+      <Page12 />
       <Page13 />
       <Page14 />
       <Footer />
