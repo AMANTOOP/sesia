@@ -17,10 +17,10 @@ export function Page14() {
             <p className="uppercase text-sm tracking-wider text-gray-600">
               Contacts
             </p>
-            <h2 className="text-4xl font-light text-gray-900">
+            <h2 className="text-4xl font-light text-gray-900 mt-[2rem]">
               Get <em className="italic font-playground">in</em> touch
             </h2>
-            <p className="mt-4 text-gray-700">
+            <p className="mt-4 text-gray-700 max-w-[20rem]">
               Leave your contact details below to register your interest in
               Sensia.
             </p>

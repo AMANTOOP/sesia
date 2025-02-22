@@ -44,7 +44,7 @@ export function Page5() {
         <h4 className="text-sm uppercase tracking-wide text-gray-600 my-5 font-commuters">
           Interiors
         </h4>
-        <h2 className="text-4xl font-light">
+        <h2 className="text-4xl font-light mt-8">
           Living Spaces<br /> Shaped <span className="italic font-playground">by</span> Serenity
         </h2>
         </div>

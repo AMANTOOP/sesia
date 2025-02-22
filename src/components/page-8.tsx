@@ -12,7 +12,7 @@ export function Page8() {
         <div className="absolute inset-0 bg-black/20" />
       </div>
       <div className="relative container mx-auto px-4 h-full flex items-end justify-center text-white text-center">
-      <button className="mt-8 border border-white px-6 py-3 flex items-center gap-2 hover:bg-white/10 transition-colors">
+      <button className="mt-8 border border-white px-6 py-3 flex items-center gap-2 hover:bg-white/10 transition-colors mb-8">
         <Eye className="w-5 h-5" />
         <span className="text-sm tracking-wider">VIEW MORE</span>
       </button>

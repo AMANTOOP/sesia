@@ -10,9 +10,9 @@ export function Page9() {
             <Image
               src="/page-9.png"
               alt="Decorative image"
-              width={400}
-              height={400}
-              className="rounded-lg"
+              width={500}
+              height={600}
+              className=""
             />
           </div>
           <div className="text-center md:text-left">
@@ -20,13 +20,13 @@ export function Page9() {
               AMENITIES
             </span>
 
-            <h2 className="mt-4 text-3xl md:text-4xl font-light font-utile">
+            <h2 className="mt-[4rem] text-3xl md:text-4xl font-light font-utile">
               Luxury That Nurtures
               <br />
               Well-Being
             </h2>
 
-            <p className="mt-6 text-gray-600 leading-relaxed font-inter ml-[15rem]">
+            <p className="mt-[4rem] text-gray-600 leading-relaxed font-inter ml-[15rem]">
               The thoughtfully curated amenities harmonize well-being, comfort,
               and leisure, offering a lifestyle that elevates relaxation while
               fostering vibrant social interactions in an elegant and tranquil

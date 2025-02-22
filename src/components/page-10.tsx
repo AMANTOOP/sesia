@@ -8,13 +8,13 @@ export function Page10() {
         <Carousel />
       </div>
 
-      <div className="px-6 md:px-24 lg:px-24 pb-16 grid grid-cols-1 md:grid-cols-2 gap-8 mt-[10rem] ml-[60px]">
+      <div className="px-6 md:px-24 lg:px-24 pb-16 grid grid-cols-1 md:grid-cols-2 gap-8 mt-[20rem] ml-[60px]">
         <div className="max-w-[30rem] mx-auto md:mx-0">
           <span className="text-sm tracking-wider text-gray-600 font-inter">
             Additional Amenities
           </span>
 
-          <h2 className="mt-4 text-3xl md:text-4xl font-light">
+          <h2 className="mt-[4rem] text-3xl md:text-4xl font-light">
             Discover More Moments <i>to Savour</i>
           </h2>
 
@@ -30,7 +30,7 @@ export function Page10() {
         <div className="max-w-[30rem] ml-10 md:mx-0">
           {/* Amenities List */}
           <div className="mt-6">
-            <ul className="text-gray-700 space-y-1 text-left font-commuters">
+            <ul className="text-gray-700 space-y-1 text-left font-commuters text-[20px]">
               <li>• Indoor Changing Facilities</li>
               <li>• Dining Bosque Plaza</li>
               <li>• Tea Pavilion</li>

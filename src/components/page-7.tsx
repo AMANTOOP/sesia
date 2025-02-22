@@ -12,7 +12,7 @@ export function Page7() {
               PANORAMIC SURROUNDINGS
             </span>
 
-            <h2 className="mt-4 text-3xl md:text-4xl font-light font-utile uppercase">
+            <h2 className="mt-10 text-3xl md:text-4xl font-light font-utile uppercase">
               Awaken <span className="italic font-playground">to</span>{" "}
               expansive
               <br />
@@ -36,13 +36,12 @@ export function Page7() {
             </Button>
           </div>
 
-          <div className="relative">
+          <div className="relative h-[600px] w-auto text-right mr-0">
             <Image
               src="/page-7.png"
               alt="Decorative image"
-              width={800}
-              height={400}
-              className="rounded-lg"
+              fill
+              className="object-cover"
             />
           </div>
         </div>
