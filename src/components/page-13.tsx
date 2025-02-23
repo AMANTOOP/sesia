@@ -45,7 +45,7 @@ export function Page13() {
 
             <p className="mt-[2rem] text-gray-600 leading-relaxed font-franklin">
               Our commitment to quality and design ensures that every
-              development is more than just a place to live; it's an experience
+              development is more than just a place to live; it&apos;s an experience
               that redefines modern living. With a focus on delivering on-time,
               thoughtfully designed homes, we provide spaces that resonate with
               the personal values of our residents, enhancing their quality of
