@@ -1,5 +1,3 @@
-import { Eye } from "lucide-react";
-
 export function Page11() {
   return (
     <section className="relative h-screen">
