@@ -53,7 +53,7 @@ export function Page13() {
               offers a lifestyle where every detail has been curated to provide
               unparalleled comfort, convenience, and well-being. Our mission is
               to go beyond expectations and deliver homes that inspire, uplift,
-              and resonate with modern urban values.
+              and resonate with modern urban values.
             </p>
           </div>
         </div>
