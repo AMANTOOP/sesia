@@ -18,11 +18,11 @@ export function HeroSection() {
         <h1 className="max-w-4xl">
           <span className="block mb-2">ARCHITECTURAL ELEGANCE</span>
           <span className="block">
-            ABOVE <span className="font-playground font-medium italic text-[40px] leading-[40px]">the</span> HORIZON
+            ABOVE <span className="font-custom font-medium text-[40px] leading-[40px] italic">the</span> HORIZON
           </span>
         </h1>
 
-        <p className="mt-6 text-lg md:text-xl font-light font-inter">
+        <p className="mt-6 text-lg md:text-xl font-medium font-inter">
           DISCOVER A TIMELESS RETREAT WHERE CITY MEETS SEA&apos;S CALM
         </p>
 

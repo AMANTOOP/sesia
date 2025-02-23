@@ -11,13 +11,13 @@ export function Page14() {
         <div className="absolute inset-0 bg-black/20" />
       </div> 
       <div className="relative container mx-auto px-4 h-full flex flex-col items-center justify-center text-white text-center space-y-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Left Section - Text */}
           <div className="text-left">
             <p className="uppercase text-sm tracking-wider text-gray-600">
               Contacts
             </p>
-            <h2 className="text-4xl font-light text-gray-900 mt-[2rem]">
+            <h2 className="text-5xl font-light text-gray-900 mt-[2rem]">
               Get <em className="italic font-playground">in</em> touch
             </h2>
             <p className="mt-4 text-gray-700 max-w-[20rem]">

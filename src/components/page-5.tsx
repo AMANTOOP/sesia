@@ -44,7 +44,7 @@ export function Page5() {
         <h4 className="text-sm uppercase tracking-wide text-gray-600 my-5 font-commuters">
           Interiors
         </h4>
-        <h2 className="text-4xl font-light mt-8">
+        <h2 className="text-5xl font-light mt-8">
           Living Spaces<br /> Shaped <span className="italic font-playground">by</span> Serenity
         </h2>
         </div>
@@ -52,7 +52,7 @@ export function Page5() {
         <p className="mt-4 text-gray-700">
           Immerse yourself in warmth, sophistication, and seamless indoor-outdoor flow.
         </p>
-        <p className="mt-4 text-gray-700">
+        <p className="mt-6 text-gray-700">
           Floor-to-ceiling windows flood rooms with <strong>natural light</strong>, revealing breathtaking vistas. 
           <strong> Timeless interiors, refined finishes</strong>, and <strong>airy spaces</strong> offer a tranquil escape, 
           where every detail fosters an environment for relaxed, sumptuous comfort.

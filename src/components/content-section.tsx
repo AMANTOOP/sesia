@@ -17,7 +17,7 @@ export function ContentSection() {
         <div className="absolute inset-0 bg-black/20" />
       </div>
 
-      <div className="absolute top-10 left-10 w-60 h-80">
+      <div className="absolute top-20 left-20 w-60 h-80">
         <Image
           src="/page-2.png"
           alt="Flowing Red Fabric"
@@ -26,7 +26,7 @@ export function ContentSection() {
         />
       </div>
 
-      <div className="absolute bottom-20 right-10 w-60 h-80">
+      <div className="absolute bottom-20 right-20 w-60 h-80">
         <Image
           src="/page2-2.png"
           alt="Woman in Red Dress"
@@ -35,33 +35,37 @@ export function ContentSection() {
         />
       </div>
 
-      <div className="relative z-10 text-center text-black max-w-3xl flex flex-col justify-center items-center">
-        <span className="text-sm tracking-wide uppercase text-gray-500 mt-[2rem]">
-          BREATHTAKING SCENERY, ELEVATED LIVING
-        </span>
-        <h2 className="mt-4 text-3xl md:text-4xl font-light">
-          A Picturesque Retreat <span className="italic">by</span> the Water
-        </h2>
-        <p className="mt-[2rem] text-gray-600 leading-relaxed p-4 font-commuters max-w-[400px]">
-          Every day at Sensia begins and ends with a breathtaking waterfront
-          vista.
-        </p>
-        <p className="mt-[5rem] text-gray-600 leading-relaxed p-4 max-w-[400px] font-franklin">
-          Imagine the serenity between the shores where every angle turned
-          reveals views of the <strong>shimmering sea</strong>, the sprawling
-          greenery, and Dubai Maritime City’s vibrant pulse while you hear the
-          soothing flow of the waves. Here, the peaceful ambience of the{" "}
-          <strong>tranquil parkland</strong>
-          and the shoreline sets the tone for a timeless retreat by the water’s
-          edge.
-        </p>
-        <Button
-          variant="outline"
-          className="h-9 px-4 border-[#e3f2fd] text-[13px] font-normal 
+      <div className="relative z-10 text-center text-black flex flex-col justify-center items-center mt-[4rem]">
+        <div className="relative z-10 text-center text-black flex flex-col justify-center items-center">
+          <span className="text-sm tracking-wide uppercase text-gray-500 mt-[2rem] mb-[2rem]">
+            BREATHTAKING SCENERY, ELEVATED LIVING
+          </span>
+          <h2 className="mt-4 text-8xl md:text-6xl font-light mb-12">
+            A Picturesque Retreat <span className="italic">by</span> the Water
+          </h2>
+        </div>
+        <div className="relative z-10 text-center text-black max-w-5xl flex flex-col justify-center items-center">
+          <p className="mt-[2rem] text-gray-600 leading-relaxed p-4 font-commuters max-w-[400px]">
+            Every day at Sensia begins and ends with a breathtaking waterfront
+            vista.
+          </p>
+          <p className="mt-[1rem] text-gray-600 leading-relaxed p-4 max-w-[400px] font-franklin">
+            Imagine the serenity between the shores where every angle turned
+            reveals views of the <strong>shimmering sea</strong>, the sprawling
+            greenery, and Dubai Maritime City’s vibrant pulse while you hear the
+            soothing flow of the waves. Here, the peaceful ambience of the{" "}
+            <strong>tranquil parkland </strong>
+            and the shoreline sets the tone for a timeless retreat by the
+            water’s edge.
+          </p>
+          <Button
+            variant="outline"
+            className="h-9 px-4 border-[#e3f2fd] text-[13px] font-normal 
                 hover:bg-[#e3f2fd] hover:border-[#e3f2fd] transition-all duration-300"
-        >
-          REGISTER INTEREST
-        </Button>
+          >
+            REGISTER INTEREST
+          </Button>
+        </div>
       </div>
     </section>
   );

@@ -3,8 +3,18 @@ import { Button } from "@/components/ui/button";
 
 export function LivingSpacesSection() {
   return (
-    <section className="py-24 bg-[#f8f8f8]">
-      <div className="container mx-auto px-4">
+    <section className="py-24 bg-[#f8f8f8] relative">
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage: `url('https://s3-alpha-sig.figma.com/img/b0c4/9374/88a629ca90f1928d488e64bc59a1eaf7?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=aeUqsyDRXyWSjhVloOOPVAIzdU10IA5gN~QOvN~1sB9Di-nqyiQTXeVgha7PSoGkLYSWDAb0ZULIeajLyEUATyoWgFMRTUtfja8wIMhr6Lp6csz8jnKKYIWnzdCdQpCNeas3zsLEsnZuRwYtZMuvtid0rxbygotihaqS8rDz0R~oUfOHJc12JPtFDHfwbLvbdfgZqTMrZtgFqy1J8aKm~jOSYWvZ4frfC-nCBCHdnE97VWJKLpOi6brkodldzkeKRZhhZoIeQiZIBFcQeo3JNk15P5eGOfhLYtnOz0OYTnE2-XDOjBJ4yh5Tc--vXgNJrqwQnu44QsoyUeaQ8LExSQ__')`,
+          backgroundBlendMode: "overlay",
+          backgroundColor: "#E5C5B8",
+        }}
+      >
+        
+      </div>
+      <div className="container mx-auto px-4 relative">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative h-[600px] w-[500px]">
             <Image
@@ -15,12 +25,13 @@ export function LivingSpacesSection() {
             />
           </div>
 
+          {/* Wrapped content in a div with flex justify-end to align right */}
           <div className="text-center md:text-left">
             <span className="text-sm tracking-wider text-gray-600 ml-[10rem] font-commuters">
               PROJECT
             </span>
 
-            <h2 className="mt-[4rem] text-3xl md:text-4xl font-light font-utile">
+            <h2 className="mt-[4rem] text-3xl md:text-5xl font-normal font-utile">
               Graceful Lines,
               <br />
               Elevated Living

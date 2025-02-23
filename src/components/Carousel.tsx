@@ -64,12 +64,12 @@ export function Carousel() {
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-black"></div>
 
             {/* Title at the Top */}
-            <div className="absolute top-6 left-1/2 transform -translate-x-1/2 text-center">
-              <h3 className="text-white text-lg font-bold tracking-wide">{item.title}</h3>
+            <div className="absolute top-6 left-1/2 transform -translate-x-1/2 text-center max-w-[20rem]">
+              <h3 className="text-white text-lg tracking-wide font-normal leading-[28px]">{item.title}</h3>
             </div>
 
             {/* Description at the Bottom */}
-            <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-center px-4">
+            <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-center px-4 font-light text-[20px]">
               <p className="text-white text-sm leading-relaxed">{item.description}</p>
             </div>
           </div>

@@ -18,7 +18,7 @@ module.exports = {
     extend: {
       fontFamily: {
         utile: ["Utile", "sans-serif"],
-        playground: ['PP Playground', 'sans-serif'],
+        custom: ['CustomFont', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
         commuters: ['Commuters Sans', 'sans-serif'],
         franklin: ['Franklin Gothic Book', 'sans-serif'],

@@ -15,10 +15,10 @@ export function Page10() {
           </span>
 
           <h2 className="mt-[4rem] text-3xl md:text-4xl font-light">
-            Discover More Moments <i>to Savour</i>
+            Discover More<br></br> Moments <span className="italic">to</span> Savour
           </h2>
 
-          <p className="text-gray-700 mt-4">
+          <p className="text-gray-700 mt-10 max-w-[25rem]">
             Whether gathering with friends, embracing peaceful solitude, or
             exploring new pursuits, these spaces invite meaningful and memorable
             experiences.
